@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-family: 'Press Start 2P';
+    color: darkslategray;
+    padding-top: 12px;
+    font-size: 15vh;
+    font-style: italic;
+}
+
+
+.difficulty{
+   font-size: 15vh;
+   font-family:'Press Start 2P';
+   text-align: center;
+   padding-top: 25px;
+   color: currentColor;
+   text-justify: none;
+   display: flex;
+   flex-direction: column;
+   text-decoration: none;
+}
+
+.wrapper { 
+  height: 100%;
+  width: 100%;
+  left:0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  background: linear-gradient(124deg,  dimgray, #35AF23, #e3e81d, #7FDCFF, #A61f0f, #F7EE3D, #82744b);
+  background-size: 1800% 1800%;
+
+-webkit-animation: rainbow 19s ease infinite;
+-z-animation: rainbow 19s ease infinite;
+-o-animation: rainbow 19s ease infinite;
+  animation: rainbow 19s ease infinite;}
+
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
